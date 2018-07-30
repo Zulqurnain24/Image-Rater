@@ -1,0 +1,38 @@
+{
+  "name": "Boilerplate",
+  "version": "0.0.1",
+  "author": "Mohammad Zulqurnain",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^4.12.1",
+    "moment": "^2.19.2",
+    "native-base": "^2.3.3",
+    "react": "16.0.0",
+    "react-native": "0.50.1",
+    "react-native-rating-star": "^0.2.1",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-simple-radio-button": "^2.7.0",
+    "react-native-star-rating": "^1.0.9",
+    "react-native-vector-icons": "^4.4.2",
+    "react-navigation": "^1.0.0-beta.19",
+    "react-redux": "^5.0.7"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
